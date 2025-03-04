@@ -131,6 +131,7 @@ section {
 .Rules-Content h2 {
   font-size: 5rem;
   text-align: center;
+  padding: 3rem;
 }
 .Rules-List ul {
   list-style: circle;
