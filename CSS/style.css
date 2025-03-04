@@ -69,7 +69,7 @@ body {
 
 section {
   min-height: 30vh;
-  padding: 15em;
+  padding: 8rem;
   display: flex;
 }
 
@@ -78,10 +78,8 @@ section {
 .Intro {
   align-items: center;
   justify-content: center;
-  gap: 15rem;
-  background-color: var(--second-bg-color);
-  flex-direction: column;
-  min-height: 30vh;
+  background-color: var(bg-color);
+  min-height: 10vh;
 }
 .Intro-Content p {
   font-size: 2.5rem;
@@ -99,7 +97,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
   background: var(--bg-color);
   min-height: 10vh;
   padding: 0rem;
@@ -107,20 +104,36 @@ section {
 
 .RulesWhite {
   align-items: center;
-  gap: 10rem;
   justify-content: center;
   background-color: var(--second-bg-color);
+  min-height: 10vh;
 }
-.Rules-Content {
+.Rules-Content-Header {
   align-items: center;
   justify-content: center;
 }
-.Rules-Content h1 {
-  font-size: 5rem;
+.Rules-Content-Header h1 {
+  font-size: 8rem;
   padding: 2rem;
   text-align: center;
 }
-.Rules-Content p {
-  font-size: 2.5rem;
+.Rules-Content-Header p {
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.Rules-Content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.Rules-Content h2 {
+  font-size: 5rem;
+  text-align: center;
+}
+.Rules-List ul {
+  list-style: circle;
+  font-size: 3rem;
   text-align: center;
 }
