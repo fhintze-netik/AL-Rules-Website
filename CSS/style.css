@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
   font-family: "Poppins";
@@ -19,11 +18,11 @@ html {
 body {
   background: var(--bg-color);
   color: var(--text-color);
-  display: flex;
 }
 /*---Header---------------------------------------------------------------------*/
 
 .header {
+  box-sizing: border-box;
   position: fixed;
   width: 100%;
   top: 0;
@@ -64,4 +63,64 @@ body {
 .navbar a:hover {
   color: var(--main-color);
   border-bottom: 3px solid var(--main-color);
+}
+
+/*---Section---------------------------------------------------------------------*/
+
+section {
+  min-height: 30vh;
+  padding: 15em;
+  display: flex;
+}
+
+/*---Intro----------------------------------------------------------------------*/
+
+.Intro {
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  background-color: var(--second-bg-color);
+  flex-direction: column;
+  min-height: 30vh;
+}
+.Intro-Content p {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.Intro-Content h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 5rem;
+}
+
+/*---Rules-----------------------------------------------------------------------*/
+
+.RulesGrey {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  background: var(--bg-color);
+  min-height: 10vh;
+  padding: 0rem;
+}
+
+.RulesWhite {
+  align-items: center;
+  gap: 10rem;
+  justify-content: center;
+  background-color: var(--second-bg-color);
+}
+.Rules-Content {
+  align-items: center;
+  justify-content: center;
+}
+.Rules-Content h1 {
+  font-size: 5rem;
+  padding: 2rem;
+  text-align: center;
+}
+.Rules-Content p {
+  font-size: 2.5rem;
+  text-align: center;
 }
