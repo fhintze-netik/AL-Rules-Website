@@ -137,8 +137,21 @@ section {
 .Rules-List ul {
   list-style: circle;
   font-size: 3rem;
-  text-align: center;
+
+/*---Scrollbar----------------------------------------------------------------*/
+
+::-webkit-scrollbar {
+  width: 5px;
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 3rem;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--bg-color);
+}
+
 
 .footer {
   background-color: var(--secondary-color);
