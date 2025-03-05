@@ -129,6 +129,8 @@ section {
 .Rules-Content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .Rules-Content h2 {
   font-size: 5rem;
