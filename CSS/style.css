@@ -80,8 +80,10 @@ section {
 .Intro {
   align-items: center;
   justify-content: center;
-  background-color: var(bg-color);
+  background-color: var(--bg-color);
   min-height: 10vh;
+  border-bottom: 1rem solid var(--main-color);
+  border-radius: 10rem; 
 }
 .Intro-Content p {
   font-size: 2.5rem;
