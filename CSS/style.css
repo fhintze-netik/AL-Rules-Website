@@ -89,16 +89,17 @@ section {
   justify-content: center;
   background-color: var(--bg-color);
   min-height: 10vh;
+  margin-top: 3rem;
   border-bottom: 1rem solid var(--main-color);
   border-radius: 10rem; 
 }
 .Intro-Content p {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
 }
 .Intro-Content h2 {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 4rem;
   padding: 5rem;
 }
 
