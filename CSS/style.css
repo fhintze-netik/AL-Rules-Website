@@ -69,6 +69,13 @@ body {
 
 /*---Section---------------------------------------------------------------------*/
 
+.sections{
+  border-left: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 section {
   min-height: 30vh;
   padding: 8rem;
